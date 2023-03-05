@@ -91,9 +91,9 @@ def buy(msg):
         bot.send_message(msg.chat.id, "unexpected error")
         bot.send_message(ADMIN_CHAT_ID, f"unexpected error\nerror: {err}")
 
-# @bot.message_handler(commands=['get_chat_id'])
-# def test(msg):
-    # bot.send_message(msg.chat.id, f"{msg.chat.id}")
+@bot.message_handler(commands=['get_chat_id'])
+def test(msg):
+    bot.send_message(msg.chat.id, f"{msg.chat.id}")
 
 
 @bot.message_handler(content_types=['text'])
