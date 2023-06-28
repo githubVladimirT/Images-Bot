@@ -1,3 +1,3 @@
 # Images Bot
 
-## Bot isn't started!!
+## Bot isn't running!!
